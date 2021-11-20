@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.vertical{
+    position: relative;
+    top: 80px;
+    width: 1%;
+    height: 10rem;
+    left: 50%;
+    font-size: 0px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+.horizontal{
+    position: absolute;
+    top: 12rem;
+    height: 1.2rem;
+    left:45%;
+    width: 12%;
+    font-size: 0px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+h2{
+    margin-top: 15%;
+    text-align: center;
+}
+.l-vertical{
+    position: relative;
+    top: 80px;
+    width: 1%;
+    height: 8rem;
+    left: 50%;
+    font-size: 0px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+.l-horizontal{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 12%;
+    height: 15px;
+    border: 1px solid black;
+    background-color:blanchedalmond;
+    font-size: 0px;
+}
+h3{
+    margin-top: 12%;
+    text-align: center; 
+}
+section{
+    background-color: rgb(236, 214, 159);
+    text-align: center;
+    height: 25rem;
+}
+.circle{
+    position: relative;
+    top: 10px;
+    left: 3%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 208, 0);
+    border-radius: 50%;
+}
+.building{
+  position: relative;
+  top: 10px;
+  left: 35%;
+  width: 400px;
+  height: 250px;
+  background-color: rgb(89, 180, 216);
+}
+.door{
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    width: 50px;
+    height: 200px;
+    background-color: crimson;
+}
+.window-1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 50px;
+    height: 70px;
+    background-color: rgb(238, 227, 231);
+}
+.window-2{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 50px;
+    height: 70px;
+    background-color: rgb(238, 227, 231);
+}
+.roof{
+    position: relative;
+    top: 10px;
+    left: 35%;
+    width: 415px;
+    height: 50px;
+    background-color: rgb(26, 158, 55);
+    transform: skewX(330deg);
+}
+.tree{
+    position: relative;
+    top: -140px;
+    left: 80%;
+    width: 50px;
+    height: 100px;
+    bottom: 30px;
+    background-color: rgb(32, 196, 32);
+}
+.tree-roof{
+    position: absolute;
+    top: 57rem;
+    left: 82%;
+    height: 80px;
+    width: 150px;
+    background-color: rgb(32, 196, 32);    
+    /* border-radius: 50%; */
+    border-radius: 150px 150px 0 0;
+    transform: translate(-50%, -50%);
+}
+
+
+
